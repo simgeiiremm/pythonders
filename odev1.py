@@ -30,7 +30,7 @@ print(num3, "bir karmasik sayidir.", type(num3))
 
 
 ## 3-) Sequence (sıralama) veri tipleri => list, tuple, range 
-#=> Çok yönlü bleşik veri türleridir. Ögeler köşeli parantez içerisine virgülle ayrılarak kullanılır.
+#list, Çok yönlü bleşik veri türleridir. Ögeler köşeli parantez içerisine virgülle ayrılarak kullanılır.
 
 list = ["Ayşe", "Fatma", 25, 10.9, 'Simge']
 print(list)
@@ -114,6 +114,16 @@ while True:
 #endregion
 
 
+ogrenciler = ["Simge", "Damla", "Melikhan", "Eymen", "Şevki", "Fulya"]
+print(ogrenciler)
+print(ogrenciler[0])
+print(ogrenciler[1])
+print(ogrenciler[2])
+print(ogrenciler[3])
+print(ogrenciler[4])
+print(ogrenciler[5])
 
-
+print(len(ogrenciler))
+ogrenciler[3] = "Eylül Zeynep"
+print(ogrenciler)
 
